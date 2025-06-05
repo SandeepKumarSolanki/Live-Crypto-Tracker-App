@@ -18,6 +18,7 @@ const getTypeColor = (type) => {
 const CoinLinks = ({ links }) => {
   if (!links?.length) return null;
 
+
   return (
     <div className="mt-10">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">🔗 Official Links</h2>
@@ -44,6 +45,7 @@ const CoinLinks = ({ links }) => {
             <ExternalLink className="w-5 h-5 text-gray-400" />
           </a>
         ))}
+        
       </div>
     </div>
   );
